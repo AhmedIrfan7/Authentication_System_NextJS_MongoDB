@@ -60,6 +60,11 @@ export async function loginAction(formData) {
 
 export async function logoutAction() {
   const cookieStore = await cookies();
+  cookieStore.set("user_email", "", {
+    httpOnly: true,
+    path: "/",
+    maxAge: 0,
+  });
   cookieStore.delete("user_email");
   redirect("/login");
 }
