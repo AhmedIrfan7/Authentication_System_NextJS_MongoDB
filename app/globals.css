@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  color: #222;
+  min-height: 100vh;
+}
+
+.home {
+  max-width: 500px;
+  margin: 100px auto;
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.home h1 {
+  margin-bottom: 10px;
+}
+
+.home p {
+  margin-bottom: 20px;
+}
+
+.home .links a {
+  margin: 0 10px;
+  color: #0070f3;
+  text-decoration: none;
+}
