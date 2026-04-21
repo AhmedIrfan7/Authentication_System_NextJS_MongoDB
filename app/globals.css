@@ -33,3 +33,61 @@ body {
   color: #0070f3;
   text-decoration: none;
 }
+
+.auth-box {
+  max-width: 400px;
+  margin: 80px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.auth-box h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.auth-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-box input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.auth-box button {
+  padding: 10px;
+  background: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.auth-box button:disabled {
+  background: #999;
+  cursor: not-allowed;
+}
+
+.auth-box .error {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.auth-box p {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.auth-box p a {
+  color: #0070f3;
+  text-decoration: none;
+}
