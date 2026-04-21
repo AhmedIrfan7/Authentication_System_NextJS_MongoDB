@@ -11,6 +11,13 @@ body {
   min-height: 100vh;
 }
 
+.page-wrap {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .home {
   max-width: 500px;
   margin: 100px auto;
@@ -18,6 +25,7 @@ body {
   background: white;
   padding: 40px;
   border-radius: 8px;
+  width: 90%;
 }
 
 .home h1 {
